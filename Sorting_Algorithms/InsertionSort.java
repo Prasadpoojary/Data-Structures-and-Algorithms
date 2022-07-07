@@ -15,7 +15,7 @@ public class InsertionSort
 
 	private static void sort(int[] list) 
 	{
-		for( int index=0; index<list.length;index++)
+		for( int index=1; index<list.length;index++)
 		{
 			int checkPoint=index-1;
 			int current=list[index];
